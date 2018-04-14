@@ -1,0 +1,13 @@
+build
+node_modules/
+.git/
+package-lock.json
+.DS_Store
+Thumbs.db
+.idea
+*.sublime*
+*.log
+*.psd
+*.ai
+*.pdf
+src/css/normalize.css

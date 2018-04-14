@@ -1,0 +1,51 @@
+::placeholder {
+	color: #777;
+}
+
+html {
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: "OpenSansRegular", Arial, sans-serif;
+	color: #222;
+	font-style: normal;
+
+	background-color: #ccc;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.hidden {
+	display: none !important;
+}
+
+hr {
+		display: block;
+		height: 1px;
+		border: 0;
+		border-top: 1px solid #ccc;
+		margin: 10px 0;
+		padding: 0;
+}
+
+// Допускает только вертикальное изменение текстового поля
+textarea {
+    resize: vertical;
+}
+
+// Скрывает элемент "безопасно"
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}

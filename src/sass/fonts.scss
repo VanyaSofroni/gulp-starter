@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "OpenSansRegular";
+	src: 	url("../fonts/OpenSansRegular/OpenSansRegular.woff2") format("woff2"), 
+				url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"); // IE 9+
+				// url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype"); // устарел, сильно тяжелый
+	font-weight: normal;		
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "OpenSansLight";
+	src: 	url("../fonts/OpenSansLight/OpenSansLight.woff2") format("woff2"), 
+				url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff");
+	font-weight: normal;	
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "OpenSansBold";
+	src: 	url("../fonts/OpenSansBold/OpenSansBold.woff2") format("woff2"), 
+				url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff");
+	font-weight: normal;	
+	font-style: normal;
+}

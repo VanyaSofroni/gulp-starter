@@ -1,0 +1,26 @@
+@mixin clearfix() {
+	&::after {
+		content: "";
+
+		display: table;
+		clear: both;
+	}
+}
+ 
+@mixin container-fluid() { // резиновый центровщик
+	width: auto; 
+
+	@media ($tablet-widths) {
+		width: 84%;  // 640px / 768px * 100 = 84%
+		max-width: 960px; // 960px / 0.84 = 1142px (центровка начнется чуть раньше 1200px)
+
+		margin: 0 auto;
+	}
+}
+
+@mixin placeholder() {
+	&::-webkit-input-placeholder { @content; }
+	&::-moz-placeholder  				 { @content; }
+	&:-moz-placeholder  				 { @content; }
+	&:-ms-input-placeholder  		 { @content; }
+}
